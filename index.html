@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DaysInMonth</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="pic.png">
+    </head>
+    <body>
+        <div class="man">
+            <div class="main">
+                <input type="text" name="year" id="year" placeholder="Enter the Year">
+            </div>
+            <div class="main">
+                <label for="month">Select a month:</label>
+                <select id="month" name="month" onchange="getOption()">
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+            </div>
+            <div class="main">
+                <submit class="sub" id="sub">check</submit>
+            </div>
+            <p class="main1" id="res"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
