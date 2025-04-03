@@ -20,3 +20,12 @@ CSS
 
 JavaScript
 
+## Project Website
+
+https://monthlydays.netlify.app/
+
+## Project Screenshot
+
+![pic1](https://github.com/user-attachments/assets/dc84fda2-4911-498b-b4d7-52c5b3aade1d)
+
+
